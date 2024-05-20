@@ -5,7 +5,7 @@ import Layout from '../layouts/Layout.astro';
 <Layout title="David Lorenzo">
 	<main class="container">
 		<div class="row justify-content-center">
-			<div class="col-12 col-md-12 col-lg-6">
+			<div class="col-12 col-md-12 col-lg-6 px-3">
 
 				<nav class="navbar navbar-expand-lg navbar-dark">
 					<a href="#" class="navbar-brand fs-5">David Lorenzo</a>
@@ -24,19 +24,33 @@ import Layout from '../layouts/Layout.astro';
 					</div>				
 				</nav>
 
-				<header class="pt-5 mt-5">
-					<h1 class="fs-4 mb-1">David Lorenzo</h1>
-					<p class="text-secondary">Github - Linkedin - Email</p>
-
-					<h2 class="fs-6 text-secondary mt-4">Introducción</h2>
-					<h3 class="fs-5">Product designer and Developer</h3>
+				<header class="pt-5">
+					<h1 class="fs-1 my-5">Product Designer and Developer</h1>
+					<h2 class="fs-5 text-secondary mt-4">David Lorenzo</h2>
 					<p>+2 años de experiencia. <span class="text-secondary">Apasionado por crear intefaces de usuario elegantes e intuitivas.</span> Listo para aportar valor a tu proyecto.</p>
+					<div class="d-flex gap-3">
+						<a href="#" class="link-secondary fw-bold ">
+							Github
+							<i class="bi bi-arrow-right-short"></i>
+						</a>
+						<a href="#" class="link-secondary fw-bold ">
+							Linkedin
+							<i class="bi bi-arrow-right-short"></i>
+						</a>
+						<a href="#" class="link-secondary fw-bold ">
+							Email
+							<i class="bi bi-arrow-right-short"></i>
+						</a>
+					</div>
 				</header>
 
 				<section class="my-5">
 					<header class="pt-5 mt-5 mb-3 d-flex justify-content-between">
-						<h2 class="fs-5 mb-1">Blog</h2>
-						<a class="text-secondary" href="#">Ver todas</a>
+						<h2 class="fs-5 mb-1">Artículos</h2>
+						<a class="link-secondary fw-bold" href="#">
+							Todos
+							<i class="bi bi-arrow-right-short"></i>
+						</a>
 					</header>
 					<section class="row gap-2">
 						<div class="col-12">
@@ -45,7 +59,7 @@ import Layout from '../layouts/Layout.astro';
 									<h2 class="fs-6 mb-1">Getting started</h2>
 									<p class="text-secondary mb-0">Lorem ipsum dolor sit amet.</p>
 								</div>
-								<a href="#">
+								<a href="#" class="link-secondary">
 									<i class="bi bi-arrow-right-short fs-3"></i>
 								</a>
 							</article>
@@ -56,7 +70,7 @@ import Layout from '../layouts/Layout.astro';
 									<h2 class="fs-6 mb-1">Getting started</h2>
 									<p class="text-secondary mb-0">Lorem ipsum dolor sit amet.</p>
 								</div>
-								<a href="#">
+								<a href="#" class="link-secondary">
 									<i class="bi bi-arrow-right-short fs-3"></i>
 								</a>
 							</article>
@@ -67,7 +81,7 @@ import Layout from '../layouts/Layout.astro';
 									<h2 class="fs-6 mb-1">Getting started</h2>
 									<p class="text-secondary mb-0">Lorem ipsum dolor sit amet.</p>
 								</div>
-								<a href="#">
+								<a href="#" class="link-secondary">
 									<i class="bi bi-arrow-right-short fs-3"></i>
 								</a>
 							</article>
@@ -75,7 +89,7 @@ import Layout from '../layouts/Layout.astro';
 					</section>
 				</section>
 
-				<section class="my-5">
+<!-- 				<section class="my-5">
 					<header class="pt-5 mt-5 mb-3 d-flex justify-content-between">
 						<h2 class="fs-5 mb-1">Work Experience</h2>
 						<a class="text-secondary" href="#">Ver todas</a>
@@ -98,8 +112,223 @@ import Layout from '../layouts/Layout.astro';
 							<p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Possimus ad consequuntur hic ex corrupti ducimus eum? Impedit unde vel voluptatum!</p>
 						</article>
 					</section>
-				</section>
+				</section> -->
 				
+				<section class="my-5">
+					<header class="pt-5 mt-5 mb-3 d-flex justify-content-between">
+						<h2 class="fs-5 mb-1">Proyectos destacados</h2>
+						<a class="link-secondary fw-bold" href="#">
+							Todos
+							<i class="bi bi-arrow-right-short"></i>
+						</a>
+					</header>
+					<section class="row gap-4">
+						<div class="col-12">
+							<article class="d-flex flex-column">
+								<div class="card border-0 ratio ratio-16x9 rounded-3">
+									<img src="https://static.nationalgeographic.es/files/styles/image_3200/public/03_25.jpg?w=1900&h=1425" class="card-img rounded-3 object-fit-cover" alt="...">
+									<div class="card-img-overlay align-content-end rounded-3">
+										<span class="badge px-4 py-2 text-warning bg-light bg-opacity-25 fw-bold rounded-2">Now</span>
+									</div>
+								</div>
+								<div class="mt-2">
+									<p class="text-secondary mb-2">HTML - CSS - JavaScript - Astro - Bootstrap</p>
+									<h2 class="fs-5 fw-bold">Title of proyect</h2>
+									<p class="mb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, totam.</p>
+									<div class="d-flex gap-2">
+										<a class="link-secondary fw-bold" href="#">
+											Github
+											<i class="bi bi-arrow-right-short"></i>
+										</a>
+										<a class="link-secondary fw-bold" href="#">
+											Demo
+											<i class="bi bi-arrow-right-short"></i>
+										</a>
+									</div>
+								</div>
+							</article>
+						</div>
+						<div class="col-12">
+							<article class="d-flex flex-column">
+								<div class="card border-0 ratio ratio-16x9 rounded-3">
+									<img src="https://static.nationalgeographic.es/files/styles/image_3200/public/03_25.jpg?w=1900&h=1425" class="card-img rounded-3 object-fit-cover" alt="...">
+									<div class="card-img-overlay align-content-end rounded-3">
+										<span class="badge px-4 py-2 text-warning bg-light bg-opacity-25 fw-bold rounded-2">Now</span>
+									</div>
+								</div>
+								<div class="mt-2">
+									<p class="text-secondary mb-2">HTML - CSS - JavaScript - Astro - Bootstrap</p>
+									<h2 class="fs-5 fw-bold">Title of proyect</h2>
+									<p class="mb-2">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Asperiores, totam.</p>
+									<div class="d-flex gap-2">
+										<a class="link-secondary fw-bold" href="#">
+											Github
+											<i class="bi bi-arrow-right-short"></i>
+										</a>
+										<a class="link-secondary fw-bold" href="#">
+											Demo
+											<i class="bi bi-arrow-right-short"></i>
+										</a>
+									</div>
+								</div>
+							</article>
+						</div>
+					</section>
+				</section>
+
+				<section class="my-5">
+					<header class="pt-5 mt-5 mb-3 d-flex flex-column">
+						<h2 class="fs-5 mb-1">Skills</h2>
+						<p class="text-secondary">example text information</p>
+					</header>
+					<section class="row gap-2">
+						<div class="col-12">
+							<article class="border border-opacity-25 px-4 py-3 rounded-3">
+								<div class="mb-4">
+									<h2 class="fs-6 mb-1">Fontend</h2>
+									<p class="text-secondary mb-0">Lorem ipsum dolor sit amet.</p>
+								</div>
+								<div class="row row-gap-3">
+									<div class="col-12 col-md-6 col-lg-6">
+										<div class="d-flex align-items-center justify-content-between gap-2">
+											<article class="d-flex align-items-center">
+												<div class="icon-skills bg-secondary bg-opacity-50 rounded-3 d-flex justify-content-center align-items-center">
+													<i class="bi bi-code"></i>
+												</div>
+												<div class="ms-2">
+													<h2 class="fw-bold fs-6 mb-0">Figma</h2>
+													<p class="text-secondary m-0">Desing aplication.</p>
+												</div>
+											</article>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 col-lg-6">
+										<div class="d-flex align-items-center justify-content-between gap-2">
+											<article class="d-flex align-items-center">
+												<div class="icon-skills bg-secondary bg-opacity-50 rounded-3 d-flex justify-content-center align-items-center">
+													<i class="bi bi-code"></i>
+												</div>
+												<div class="ms-2">
+													<h2 class="fw-bold fs-6 mb-0">Figma</h2>
+													<p class="text-secondary m-0">Desing aplication.</p>
+												</div>
+											</article>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 col-lg-6">
+										<div class="d-flex align-items-center justify-content-between gap-2">
+											<article class="d-flex align-items-center">
+												<div class="icon-skills bg-secondary bg-opacity-50 rounded-3 d-flex justify-content-center align-items-center">
+													<i class="bi bi-code"></i>
+												</div>
+												<div class="ms-2">
+													<h2 class="fw-bold fs-6 mb-0">Figma</h2>
+													<p class="text-secondary m-0">Desing aplication.</p>
+												</div>
+											</article>
+										</div>
+									</div>
+								</div>
+							</article>
+						</div>
+						<div class="col-12">
+							<article class="border border-opacity-25 px-4 py-3 rounded-3">
+								<div class="mb-4">
+									<h2 class="fs-6 mb-1">Backend</h2>
+									<p class="text-secondary mb-0">Lorem ipsum dolor sit amet.</p>
+								</div>
+								<div class="row row-gap-3">
+									<div class="col-12 col-md-6 col-lg-6">
+										<div class="d-flex align-items-center justify-content-between gap-2">
+											<article class="d-flex align-items-center">
+												<div class="icon-skills bg-secondary bg-opacity-50 rounded-3 d-flex justify-content-center align-items-center">
+													<i class="bi bi-code"></i>
+												</div>
+												<div class="ms-2">
+													<h2 class="fw-bold fs-6 mb-0">Figma</h2>
+													<p class="text-secondary m-0">Desing aplication.</p>
+												</div>
+											</article>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 col-lg-6">
+										<div class="d-flex align-items-center justify-content-between gap-2">
+											<article class="d-flex align-items-center">
+												<div class="icon-skills bg-secondary bg-opacity-50 rounded-3 d-flex justify-content-center align-items-center">
+													<i class="bi bi-code"></i>
+												</div>
+												<div class="ms-2">
+													<h2 class="fw-bold fs-6 mb-0">Figma</h2>
+													<p class="text-secondary m-0">Desing aplication.</p>
+												</div>
+											</article>
+										</div>
+									</div>
+								</div>
+							</article>
+						</div>
+						<div class="col-12">
+							<article class="border border-opacity-25 px-4 py-3 rounded-3">
+								<div class="mb-4">
+									<h2 class="fs-6 mb-1">Control de versiones</h2>
+									<p class="text-secondary mb-0">Lorem ipsum dolor sit amet.</p>
+								</div>
+								<div class="row row-gap-3">
+									<div class="col-12 col-md-6 col-lg-6">
+										<div class="d-flex align-items-center justify-content-between gap-2">
+											<article class="d-flex align-items-center">
+												<div class="icon-skills bg-secondary bg-opacity-50 rounded-3 d-flex justify-content-center align-items-center">
+													<i class="bi bi-code"></i>
+												</div>
+												<div class="ms-2">
+													<h2 class="fw-bold fs-6 mb-0">Figma</h2>
+													<p class="text-secondary m-0">Desing aplication.</p>
+												</div>
+											</article>
+										</div>
+									</div>
+									<div class="col-12 col-md-6 col-lg-6">
+										<div class="d-flex align-items-center justify-content-between gap-2">
+											<article class="d-flex align-items-center">
+												<div class="icon-skills bg-secondary bg-opacity-50 rounded-3 d-flex justify-content-center align-items-center">
+													<i class="bi bi-code"></i>
+												</div>
+												<div class="ms-2">
+													<h2 class="fw-bold fs-6 mb-0">Figma</h2>
+													<p class="text-secondary m-0">Desing aplication.</p>
+												</div>
+											</article>
+										</div>
+									</div>
+								</div>
+							</article>
+						</div>
+						<div class="col-12">
+							<article class="border border-opacity-25 px-4 py-3 rounded-3">
+								<div class="mb-4">
+									<h2 class="fs-6 mb-1">Diseño</h2>
+									<p class="text-secondary mb-0">Lorem ipsum dolor sit amet.</p>
+								</div>
+								<div class="row row-gap-3">
+									<div class="col-12 col-md-6 col-lg-6">
+										<div class="d-flex align-items-center justify-content-between gap-2">
+											<article class="d-flex align-items-center">
+												<div class="icon-skills bg-secondary bg-opacity-50 rounded-3 d-flex justify-content-center align-items-center">
+													<i class="bi bi-code"></i>
+												</div>
+												<div class="ms-2">
+													<h2 class="fw-bold fs-6 mb-0">Figma</h2>
+													<p class="text-secondary m-0">Desing aplication.</p>
+												</div>
+											</article>
+										</div>
+									</div>
+								</div>
+							</article>
+						</div>
+					</section>
+				</section>
+
 			</div>
 		</div>
 	</main>
